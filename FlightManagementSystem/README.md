@@ -25,3 +25,26 @@ The **Flight Management System** is a .NET 9 API application designed to manage 
 
 ### 1. Clone the Repository
 
+### 2. Restore Dependencies
+
+### 3. Build the Solution
+
+### 4. Run the API
+
+Navigate to the API project directory (usually `FlightManagementSystem.API`) and run:
+
+By default, the API will start on `https://localhost:5001` or `http://localhost:5000` But modify launchSettings.json
+
+### 5. Test the API
+
+- Use Swagger UI (if enabled) at `https://localhost:5001/swagger` to explore and test endpoints.
+- Or use Postman/cURL to send requests to the API.
+
+## Project Structure
+
+- **FlightManagementSystem.Domain**: Domain entities, enums, and business rules.
+- **FlightManagementSystem.Application**: Application logic, DTOs, and services.
+- **FlightManagementSystem.Infrastructure**: Data access interfaces and implementations.
+- **FlightManagementSystem.API**: API controllers, middleware, and startup configuration.
+
+
